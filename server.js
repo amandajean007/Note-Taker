@@ -103,7 +103,14 @@ app.delete('/api/notes/:id', (req, res) => {
   const id = req.params.id;
   if (notes.id !== 0) {
     console.log(id);
-    notes.splice(id, 1);
+    console.log(notes);
+    for (let i = 0; i < notes.length; i++) {
+      const element = notes[i];
+      if (element['id'] === id) {
+        notes.splice(i, 1)
+      }
+    }
+    // notes.splice(id, 1);
           // Write updated notes back to the file
           fs.writeFile(
             './db/db.json',
@@ -116,18 +123,7 @@ app.delete('/api/notes/:id', (req, res) => {
     res.status(204).send();
   } else {
     res.status(405).send();
-  }
-
-
-
-//   app.delete('/notes/:id', (req, res) => {
-//     notes
-//         .removeNote(req.params.id)
-//         .then(() => res.json({ ok: true }))
-//         .catch(err => res.status(500).json(err))
-// })
-
-  
+  }  
  });
 
 
