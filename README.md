@@ -13,7 +13,7 @@ The projects aim is to be able to take notes, change notes, and remove notes in 
 8. [Status](#status)
 9. [Sources](#sources)
 ## Installation <a name="installation"></a>
-To launch this project, access its Heroku depolyment at "".
+To launch this project, access its Heroku depolyment at https://panda-note-taker.herokuapp.com/.
 ## Technologies <a name="technologies"></a>
 #### -HTML
 #### -Javascript
