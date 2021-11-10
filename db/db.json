@@ -1,15 +1,5 @@
 [
     {
-        "title": "Hey there",
-        "text": "Hows it going?",
-        "id": "8353"
-    },
-    {
-        "title": "Christmas List",
-        "text": "Car\nVacation",
-        "id": "58fb"
-    },
-    {
         "title": "Vacations",
         "text": "Greece\nAustralia\nNew Zealand",
         "id": "e737"
@@ -18,5 +8,15 @@
         "title": "Candles",
         "text": "Fresh Balsam\nWhite Gardenia",
         "id": "0967"
+    },
+    {
+        "title": "Books",
+        "text": "The Great Gatsby\nLord of The Rings\n",
+        "id": "6178"
+    },
+    {
+        "title": "Grocery",
+        "text": "Bananas\nBread\nCarrots\nMilk",
+        "id": "71c6"
     }
 ]
