@@ -7,7 +7,7 @@ const {
   readAndAppend,
   writeToFile,
   deleteNote,
-} = require('../../helpers/fsUtils');
+} = require('../../helpers/fsutils');
 
 router.get('/', (req, res) => {
   const allNotes = fs.readFileSync('./db/db.json');
